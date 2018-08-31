@@ -1,0 +1,12 @@
+.DS_Store
+#Maven忽略文件和目录
+*.iml
+*.log
+.idea/
+target/
+logs/
+*.log
+
+#python
+*pyc
+venv/
