@@ -1,7 +1,6 @@
 # proTest
 本工程为demo工程
 聚合父模块 pro-all
-
 # 1 pro-1 
 单独的java代码测试
 # 2 pro-2 
