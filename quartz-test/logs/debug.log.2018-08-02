@@ -1,0 +1,80 @@
+2018-08-02 18:08:39  [ main:0 ] - [ INFO ]  Using default implementation for ThreadExecutor
+2018-08-02 18:08:39  [ main:13 ] - [ INFO ]  Job execution threads will use class loader of thread: main
+2018-08-02 18:08:39  [ main:37 ] - [ INFO ]  Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-08-02 18:08:39  [ main:37 ] - [ INFO ]  Quartz Scheduler v.2.3.0 created.
+2018-08-02 18:08:39  [ main:51 ] - [ INFO ]  RAMJobStore initialized.
+2018-08-02 18:08:39  [ main:52 ] - [ INFO ]  Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-08-02 18:08:39  [ main:53 ] - [ INFO ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-08-02 18:08:39  [ main:53 ] - [ INFO ]  Quartz scheduler version: 2.3.0
+2018-08-02 18:08:39  [ main:376 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-08-02 18:18:31  [ main:0 ] - [ INFO ]  Using default implementation for ThreadExecutor
+2018-08-02 18:18:31  [ main:14 ] - [ INFO ]  Job execution threads will use class loader of thread: main
+2018-08-02 18:18:31  [ main:50 ] - [ INFO ]  Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-08-02 18:18:31  [ main:51 ] - [ INFO ]  Quartz Scheduler v.2.3.0 created.
+2018-08-02 18:18:31  [ main:57 ] - [ INFO ]  RAMJobStore initialized.
+2018-08-02 18:18:31  [ main:58 ] - [ INFO ]  Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-08-02 18:18:31  [ main:61 ] - [ INFO ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-08-02 18:18:31  [ main:62 ] - [ INFO ]  Quartz scheduler version: 2.3.0
+2018-08-02 18:18:32  [ main:209 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-08-02 19:55:53  [ main:0 ] - [ INFO ]  Using default implementation for ThreadExecutor
+2018-08-02 19:55:53  [ main:25 ] - [ INFO ]  Job execution threads will use class loader of thread: main
+2018-08-02 19:55:54  [ main:65 ] - [ INFO ]  Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-08-02 19:55:54  [ main:65 ] - [ INFO ]  Quartz Scheduler v.2.3.0 created.
+2018-08-02 19:55:54  [ main:74 ] - [ INFO ]  RAMJobStore initialized.
+2018-08-02 19:55:54  [ main:75 ] - [ INFO ]  Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-08-02 19:55:54  [ main:75 ] - [ INFO ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-08-02 19:55:54  [ main:75 ] - [ INFO ]  Quartz scheduler version: 2.3.0
+2018-08-02 19:55:54  [ main:290 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-08-02 19:56:41  [ main:0 ] - [ INFO ]  Using default implementation for ThreadExecutor
+2018-08-02 19:56:41  [ main:12 ] - [ INFO ]  Job execution threads will use class loader of thread: main
+2018-08-02 19:56:41  [ main:39 ] - [ INFO ]  Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-08-02 19:56:41  [ main:39 ] - [ INFO ]  Quartz Scheduler v.2.3.0 created.
+2018-08-02 19:56:41  [ main:45 ] - [ INFO ]  RAMJobStore initialized.
+2018-08-02 19:56:41  [ main:47 ] - [ INFO ]  Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-08-02 19:56:41  [ main:47 ] - [ INFO ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-08-02 19:56:41  [ main:48 ] - [ INFO ]  Quartz scheduler version: 2.3.0
+2018-08-02 19:56:41  [ main:188 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-08-02 21:03:34  [ main:0 ] - [ INFO ]  Using default implementation for ThreadExecutor
+2018-08-02 21:03:34  [ main:29 ] - [ INFO ]  Job execution threads will use class loader of thread: main
+2018-08-02 21:03:34  [ main:68 ] - [ INFO ]  Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-08-02 21:03:34  [ main:68 ] - [ INFO ]  Quartz Scheduler v.2.3.0 created.
+2018-08-02 21:03:34  [ main:78 ] - [ INFO ]  RAMJobStore initialized.
+2018-08-02 21:03:34  [ main:80 ] - [ INFO ]  Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-08-02 21:03:34  [ main:80 ] - [ INFO ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-08-02 21:03:34  [ main:81 ] - [ INFO ]  Quartz scheduler version: 2.3.0
+2018-08-02 21:03:34  [ main:396 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.

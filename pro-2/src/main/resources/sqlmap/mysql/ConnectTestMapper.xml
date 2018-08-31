@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!-- recommended not modified but can be added -->
+<mapper namespace="cn.whbing.pro.web.dao.ConnectTestDao">
+
+    <select id="test" parameterType="java.lang.Long" resultType="java.lang.String">
+        SELECT
+            `parent_task_code`
+        FROM
+            `capri_task_tag_relation`
+        WHERE
+            `task_code` = "tag-depend-5"
+    </select>
+
+</mapper>

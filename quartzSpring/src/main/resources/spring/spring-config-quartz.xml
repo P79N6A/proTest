@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--1.通过方式1创建bean-->
+    <bean id="mySimpleJobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="myBean"/>
+        <property name="targetMethod" value="printMessage"/>
+    </bean>
+    <!--1.1通过JobDetailFactoryBean创建bean-->
+    <bean id="myComplexJobDetail" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="jobClass" value="cn.whbing.pro.quartz.bean.FirstScheduledJob"/>
+        <property name="jobDataMap">
+            <map>
+                <entry key="antherBean" value="anotherBean"/>
+            </map>
+        </property>
+        <property name="durability" value="true"/>
+    </bean>
+    <!--2.创建触发器-->
+    <bean id="mySimpleTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean">
+        <property name="jobDetail" ref="mySimpleJobDetail"/>
+        <property name="startDelay" value="1000"/>
+        <property name="repeatInterval" value="2000"/>
+    </bean>
+    <!--2.1创建Cron触发器-->
+    <bean id="myCronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="myComplexJobDetail"/>
+        <property name="cronExpression" value="0/5 * * ? * *"/><!--每5s执行一次-->
+    </bean>
+    <!--3.scheduler -->
+    <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="jobDetails">
+            <list>
+                <ref bean="mySimpleJobDetail"/>
+                <ref bean="myComplexJobDetail"/>
+            </list>
+        </property>
+        <property name="triggers">
+            <list>
+                <ref bean="mySimpleTrigger"/>
+                <ref bean="myCronTrigger"/>
+            </list>
+        </property>
+    </bean>
+
+
+    <!--通过方式2创建bean-->
+    <!--<bean id="firstComplexJobDetail" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="jobClass" ref=""/>
+
+    </bean>-->
+
+
+</beans>

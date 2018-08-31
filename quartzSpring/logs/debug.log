@@ -1,0 +1,36 @@
+2018-08-03 10:19:28  [ main:0 ] - [ INFO ]  Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-08-03 10:19:28  [ main:27 ] - [ INFO ]  Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2018-08-03 10:19:28  [ main:28 ] - [ INFO ]  Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2018-08-03 10:19:28  [ main:49 ] - [ INFO ]  Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@36d4b5c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d00a15d, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@51efea79, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5034c75a]
+2018-08-03 10:19:29  [ main:405 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2018-08-03 10:19:30  [ main:1609 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@2f686d1f: startup date [Fri Aug 03 10:19:30 CST 2018]; root of context hierarchy
+2018-08-03 10:19:31  [ main:2672 ] - [ INFO ]  Mapped "{[/read/line],methods=[GET]}" onto public java.lang.String cn.whbing.pro.web.controller.ReadSpecialLineController.read()
+2018-08-03 10:19:31  [ main:3193 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@2f686d1f: startup date [Fri Aug 03 10:19:30 CST 2018]; root of context hierarchy
+2018-08-03 10:19:31  [ main:3320 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@2f686d1f: startup date [Fri Aug 03 10:19:30 CST 2018]; root of context hierarchy
+2018-08-03 10:19:32  [ main:3548 ] - [ INFO ]  
+"
+
+# judge the result
+line_num=`hadoop fs -du -s $V_PATH_DIR_report/ | awk '{print $1}'`
+if [ $line_num -gt 0 ]
+    then
+    hadoop fs -touchz $V_PATH_DIR_report/_SUCCESS
+    echo "NOTICE $V_PATH_DIR_report success"
+else
+    echo "FATAL $V_PATH_DIR_report is empty"
+fi
+
+
+WHERE 
+	ymd='sys_date_add(2020-03-01 00:10,YEAR,1,yyyy-MM-dd)' 
+
+
+# this is text;
+use default;
+
+  SELECT 
+    id 
+
+FROM 
+	${dpp}.capri_ods_task
+2018-08-03 10:19:32  [ Thread-0:3554 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@2f686d1f: startup date [Fri Aug 03 10:19:30 CST 2018]; root of context hierarchy
