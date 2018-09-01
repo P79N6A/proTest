@@ -7,9 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b22c253f-fe56-4eb5-8cd9-b7fd3120ab6c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/pro-2/src/main/resources/generatorConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro-2/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pro-1/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,20 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConnectTestMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pro-2/src/main/resources/sqlmap/mysql/ConnectTestMapper.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pro-2/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="134">
+              <caret line="161" column="1" lean-forward="true" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pro-2/pom.xml">
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pro-2/src/main/resources/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="158" selection-start-line="158" selection-end-line="158" />
+            <state relative-caret-position="131">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -50,8 +50,8 @@
       <file leaf-file-name="spring-config-dao.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pro-2/src/main/resources/spring/spring-config-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="101">
+              <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
               <folding>
                 <element signature="e#1020#1034#0" expanded="true" />
                 <element signature="e#1078#1097#0" expanded="true" />
@@ -60,49 +60,9 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="157">
-                <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="proTest.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proTest.iml">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectTestTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pro-2/src/test/java/cn/whbing/pro/web/service/test/ConnectTestTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -118,6 +78,9 @@
     <findStrings>
       <find>.log</find>
       <find>asy</find>
+      <find>core</find>
+      <find>mybatis-generator-maven-plugin</find>
+      <find>gene</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,10 +102,12 @@
         <option value="$PROJECT_DIR$/pro-1/src/main/java/CollectionValue.java" />
         <option value="$PROJECT_DIR$/pro-2-log4j2/src/test/java/cn/whbing/pro/web/service/ReadSpecialLineTest.java" />
         <option value="$PROJECT_DIR$/pro-2/src/main/java/cn/whbing/pro/web/dao/ConnectTestDao.java" />
-        <option value="$PROJECT_DIR$/pro-2/pom.xml" />
         <option value="$PROJECT_DIR$/pro-2/src/main/resources/spring/spring-config-dao.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pro-2/pom.xml" />
+        <option value="$PROJECT_DIR$/pro-2/src/main/java/com/didi/datainfra/jms/dao/TaskDOMapper.java" />
+        <option value="$PROJECT_DIR$/pro-2/src/main/resources/generatorConfig.xml" />
       </list>
     </option>
   </component>
@@ -168,7 +133,23 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pro-2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pro-2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pro-2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -194,6 +175,58 @@
             <path>
               <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="proTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlmap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,6 +255,7 @@
       <recent name="cn.whbing.pro.web.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pro-2/src/main/resources" />
       <recent name="$PROJECT_DIR$/pro-2-log4j2/src/main/resources" />
     </key>
   </component>
@@ -457,7 +491,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534845885047</updated>
-      <workItem from="1534845888071" duration="79113000" />
+      <workItem from="1534845888071" duration="83269000" />
     </task>
     <servers />
   </component>
@@ -494,7 +528,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79113000" />
+    <option name="totallyTimeSpent" value="83269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -503,7 +537,7 @@
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" weight="0.3298969" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.12103746" />
+      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.16570605" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -518,11 +552,11 @@
       <window_info id="Image Layers" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30044183" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3814433" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.42120767" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.51104563" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72316384" visible="true" weight="0.278098" />
+      <window_info anchor="bottom" id="Terminal" weight="0.24889544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72316384" visible="true" weight="0.23054755" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.20913108" />
       <window_info anchor="right" id="Theme Preview" />
@@ -541,183 +575,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pro-2-log4j2/logs/debug.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pro-2-log4j2/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pro-2-log4j2/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Level.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://SpringLocalModels/module=pro-2-log4j2">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>SpringLocalModels</ID>
-          <OriginalElement>module=pro-2-log4j2</OriginalElement>
-          <nodes>
-            <node x="" y="">module=pro-2-log4j2</node>
-            <node x="" y="">fileset=pro-2-log4j2/MVC springmvc servlet context</node>
-            <node x="" y="">filePath=/Users/didi/CodeFile/proTest/pro-2-log4j2/src/main/resources/spring-context.xml</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.9013333333333333" x="365.0" y="12.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Show filesets as groups</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/cn.whbing.pro.web.controller.ReadSpecialLineController">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>cn.whbing.pro.web.controller.ReadSpecialLineController</OriginalElement>
-          <nodes>
-            <node x="" y="">org.springframework.web.bind.annotation.RequestMapping</node>
-            <node x="" y="">org.springframework.web.bind.annotation.RestController</node>
-            <node x="" y="">cn.whbing.pro.web.controller.ReadSpecialLineController</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="187.5" y="60.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pro-2/logs/error.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pro-2/logs/debug.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176" />
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/cn.whbing.pro:pro-2:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>cn.whbing.pro:pro-2:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">cn.whbing.pro:pro-2:1.0-SNAPSHOT</node>
-            <node x="" y="">org.springframework:spring-core:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.3.5.RELEASE/org.springframework:spring-expression:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-test:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.5.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE</node>
-            <node x="" y="">javax.servlet:javax.servlet-api:jar:3.1.0</node>
-            <node x="" y="">org.springframework:spring-orm:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-orm:jar:4.3.5.RELEASE/org.springframework:spring-tx:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.mybatis:mybatis:jar:3.4.1</node>
-            <node x="" y="">org.mybatis:mybatis-spring:jar:1.3.1</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.mybatis:mybatis-typehandlers-jsr310:jar:1.0.2</node>
-            <node x="" y="">com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.8</node>
-            <node x="" y="">com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.8/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
-            <node x="" y="">com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.8/com.fasterxml.jackson.core:jackson-core:jar:2.8.8</node>
-            <node x="" y="">com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.8/com.fasterxml.jackson.core:jackson-databind:jar:2.8.8</node>
-            <node x="" y="">com.alibaba:druid:jar:1.0.29</node>
-            <node x="" y="">com.alibaba:druid:jar:1.0.29/com.alibaba:jconsole:jar:1.8.0</node>
-            <node x="" y="">com.alibaba:druid:jar:1.0.29/com.alibaba:tools:jar:1.8.0</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:5.1.39</node>
-            <node x="" y="">junit:junit:jar:4.12</node>
-            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.slf4j:jcl-over-slf4j:jar:1.7.25/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.10</node>
-            <node x="" y="">log4j:log4j:jar:1.2.17</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8897284078744339" x="1072.2900541843392" y="459.25624424494515" />
-          <SelectedNodes />
-          <Categories />
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/cn.whbing.pro:pro-2-log4j2:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>cn.whbing.pro:pro-2-log4j2:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">cn.whbing.pro:pro-2-log4j2:1.0-SNAPSHOT</node>
-            <node x="" y="">org.springframework:spring-core:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.3.5.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.3.5.RELEASE/org.springframework:spring-expression:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-test:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.5.RELEASE/org.springframework:spring-web:jar:4.3.5.RELEASE</node>
-            <node x="" y="">javax.servlet:javax.servlet-api:jar:3.1.0</node>
-            <node x="" y="">junit:junit:jar:4.12</node>
-            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="" y="">org.apache.logging.log4j:log4j-core:jar:2.5</node>
-            <node x="" y="">org.apache.logging.log4j:log4j-api:jar:2.5</node>
-            <node x="" y="">org.apache.logging.log4j:log4j-slf4j-impl:jar:2.5</node>
-            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.10</node>
-            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.10/log4j:log4j:jar:1.2.17</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8752040479007184" x="977.3317170686062" y="501.9412479054406" />
-          <SelectedNodes />
-          <Categories />
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pro-2-log4j2/${sys:catalina.home}/pro-test-logs/info/info.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pro-2-log4j2/${sys:catalina.home}/pro-test-logs/error/error.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/error/error.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pro-2-log4j2/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pro-2-log4j2/src/main/java/cn/whbing/pro/web/controller/ReadSpecialLineController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -928,13 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pro-2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="158" selection-start-line="158" selection-end-line="158" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pro-2/src/test/java/cn/whbing/pro/web/service/test/ConnectTestTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -949,29 +799,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pro-2/src/main/resources/spring/spring-config-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="e#1020#1034#0" expanded="true" />
-            <element signature="e#1078#1097#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proTest.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -982,10 +811,124 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="157">
+          <first_editor relative-caret-position="250">
             <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2/src/main/resources/spring/spring-config-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+          <folding>
+            <element signature="e#1020#1034#0" expanded="true" />
+            <element signature="e#1078#1097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2/src/main/java/com/didi/datainfra/jms/dao/TaskPathRelationDOMapper.java.1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2/src/main/java/com/didi/datainfra/jms/dao/TaskPathRelationDOMapper.java.2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2/src/main/java/com/didi/datainfra/jms/dao/TaskPathRelationDOMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2/src/main/java/com/didi/datainfra/jms/dao/TaskTagDOMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="161" column="1" lean-forward="true" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2/src/main/resources/sqlmap/mysql-jms/TaskDOMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2/src/main/java/com/didi/datainfra/jms/domain/entity/TaskDOKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2/src/main/java/com/didi/datainfra/jms/domain/entity/TaskDOWithBLOBs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2/src/main/java/com/didi/datainfra/jms/dao/TaskDOMapper.java.1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2/src/main/java/com/didi/datainfra/jms/domain/entity/TaskDOExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2/src/main/java/com/didi/datainfra/jms/domain/entity/TaskDO.java.1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2/src/main/java/com/didi/datainfra/jms/domain/entity/TaskDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1316">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2/src/main/java/com/didi/datainfra/jms/dao/TaskDOMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
