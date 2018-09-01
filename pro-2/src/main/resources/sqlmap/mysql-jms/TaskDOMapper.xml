@@ -46,8 +46,324 @@
     <result column="mode_time" jdbcType="TIMESTAMP" property="modeTime" />
     <result column="task_exe_type" jdbcType="VARCHAR" property="taskExeType" />
     <result column="cascade" jdbcType="BIT" property="cascade" />
+    <result column="input_paths" jdbcType="LONGVARCHAR" property="inputPaths" />
+    <result column="output_paths" jdbcType="LONGVARCHAR" property="outputPaths" />
+    <result column="remark" jdbcType="LONGVARCHAR" property="remark" />
   </resultMap>
-  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.didi.datainfra.jms.domain.entity.TaskDOWithBLOBs">
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from capri_task
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.didi.datainfra.jms.domain.entity.TaskDO">
+    insert into capri_task (id, code, name, 
+      user_code, demand_side, project_code, 
+      task_type, task_period_type, priority, 
+      app_path, common_app_path, main_clazz, 
+      process_no, cpu_no, memory, 
+      elapsed_time, input_timeout, output_timeout, 
+      output_offset, begin_time_offset, check_type, 
+      mode, yarn_queue_name, hadoop_account, 
+      retry_times, only_alert_owner, use_default_alert, 
+      use_phone_alert, use_sms_alert, use_mail_alert, 
+      alert_mails, alert_phones, alert_sms_phones, 
+      delete_flag, delete_time, version, 
+      create_time, update_time, product_line, 
+      dw_level, tag, mode_time, 
+      task_exe_type, cascade, input_paths, 
+      output_paths, remark)
+    values (#{id,jdbcType=BIGINT}, #{code,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, 
+      #{userCode,jdbcType=VARCHAR}, #{demandSide,jdbcType=VARCHAR}, #{projectCode,jdbcType=VARCHAR}, 
+      #{taskType,jdbcType=VARCHAR}, #{taskPeriodType,jdbcType=TINYINT}, #{priority,jdbcType=TINYINT}, 
+      #{appPath,jdbcType=VARCHAR}, #{commonAppPath,jdbcType=VARCHAR}, #{mainClazz,jdbcType=VARCHAR}, 
+      #{processNo,jdbcType=INTEGER}, #{cpuNo,jdbcType=INTEGER}, #{memory,jdbcType=INTEGER}, 
+      #{elapsedTime,jdbcType=INTEGER}, #{inputTimeout,jdbcType=INTEGER}, #{outputTimeout,jdbcType=INTEGER}, 
+      #{outputOffset,jdbcType=INTEGER}, #{beginTimeOffset,jdbcType=INTEGER}, #{checkType,jdbcType=TINYINT}, 
+      #{mode,jdbcType=TINYINT}, #{yarnQueueName,jdbcType=VARCHAR}, #{hadoopAccount,jdbcType=VARCHAR}, 
+      #{retryTimes,jdbcType=TINYINT}, #{onlyAlertOwner,jdbcType=TINYINT}, #{useDefaultAlert,jdbcType=TINYINT}, 
+      #{usePhoneAlert,jdbcType=TINYINT}, #{useSmsAlert,jdbcType=TINYINT}, #{useMailAlert,jdbcType=TINYINT}, 
+      #{alertMails,jdbcType=VARCHAR}, #{alertPhones,jdbcType=VARCHAR}, #{alertSmsPhones,jdbcType=VARCHAR}, 
+      #{deleteFlag,jdbcType=TINYINT}, #{deleteTime,jdbcType=TIMESTAMP}, #{version,jdbcType=INTEGER}, 
+      #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}, #{productLine,jdbcType=VARCHAR}, 
+      #{dwLevel,jdbcType=VARCHAR}, #{tag,jdbcType=VARCHAR}, #{modeTime,jdbcType=TIMESTAMP}, 
+      #{taskExeType,jdbcType=VARCHAR}, #{cascade,jdbcType=BIT}, #{inputPaths,jdbcType=LONGVARCHAR}, 
+      #{outputPaths,jdbcType=LONGVARCHAR}, #{remark,jdbcType=LONGVARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.didi.datainfra.jms.domain.entity.TaskDO">
+    update capri_task
+    set code = #{code,jdbcType=VARCHAR},
+      name = #{name,jdbcType=VARCHAR},
+      user_code = #{userCode,jdbcType=VARCHAR},
+      demand_side = #{demandSide,jdbcType=VARCHAR},
+      project_code = #{projectCode,jdbcType=VARCHAR},
+      task_type = #{taskType,jdbcType=VARCHAR},
+      task_period_type = #{taskPeriodType,jdbcType=TINYINT},
+      priority = #{priority,jdbcType=TINYINT},
+      app_path = #{appPath,jdbcType=VARCHAR},
+      common_app_path = #{commonAppPath,jdbcType=VARCHAR},
+      main_clazz = #{mainClazz,jdbcType=VARCHAR},
+      process_no = #{processNo,jdbcType=INTEGER},
+      cpu_no = #{cpuNo,jdbcType=INTEGER},
+      memory = #{memory,jdbcType=INTEGER},
+      elapsed_time = #{elapsedTime,jdbcType=INTEGER},
+      input_timeout = #{inputTimeout,jdbcType=INTEGER},
+      output_timeout = #{outputTimeout,jdbcType=INTEGER},
+      output_offset = #{outputOffset,jdbcType=INTEGER},
+      begin_time_offset = #{beginTimeOffset,jdbcType=INTEGER},
+      check_type = #{checkType,jdbcType=TINYINT},
+      mode = #{mode,jdbcType=TINYINT},
+      yarn_queue_name = #{yarnQueueName,jdbcType=VARCHAR},
+      hadoop_account = #{hadoopAccount,jdbcType=VARCHAR},
+      retry_times = #{retryTimes,jdbcType=TINYINT},
+      only_alert_owner = #{onlyAlertOwner,jdbcType=TINYINT},
+      use_default_alert = #{useDefaultAlert,jdbcType=TINYINT},
+      use_phone_alert = #{usePhoneAlert,jdbcType=TINYINT},
+      use_sms_alert = #{useSmsAlert,jdbcType=TINYINT},
+      use_mail_alert = #{useMailAlert,jdbcType=TINYINT},
+      alert_mails = #{alertMails,jdbcType=VARCHAR},
+      alert_phones = #{alertPhones,jdbcType=VARCHAR},
+      alert_sms_phones = #{alertSmsPhones,jdbcType=VARCHAR},
+      delete_flag = #{deleteFlag,jdbcType=TINYINT},
+      delete_time = #{deleteTime,jdbcType=TIMESTAMP},
+      version = #{version,jdbcType=INTEGER},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      product_line = #{productLine,jdbcType=VARCHAR},
+      dw_level = #{dwLevel,jdbcType=VARCHAR},
+      tag = #{tag,jdbcType=VARCHAR},
+      mode_time = #{modeTime,jdbcType=TIMESTAMP},
+      task_exe_type = #{taskExeType,jdbcType=VARCHAR},
+      cascade = #{cascade,jdbcType=BIT},
+      input_paths = #{inputPaths,jdbcType=LONGVARCHAR},
+      output_paths = #{outputPaths,jdbcType=LONGVARCHAR},
+      remark = #{remark,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, code, name, user_code, demand_side, project_code, task_type, task_period_type, 
+    priority, app_path, common_app_path, main_clazz, process_no, cpu_no, memory, elapsed_time, 
+    input_timeout, output_timeout, output_offset, begin_time_offset, check_type, mode, 
+    yarn_queue_name, hadoop_account, retry_times, only_alert_owner, use_default_alert, 
+    use_phone_alert, use_sms_alert, use_mail_alert, alert_mails, alert_phones, alert_sms_phones, 
+    delete_flag, delete_time, version, create_time, update_time, product_line, dw_level, 
+    tag, mode_time, task_exe_type, cascade, input_paths, output_paths, remark
+    from capri_task
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, code, name, user_code, demand_side, project_code, task_type, task_period_type, 
+    priority, app_path, common_app_path, main_clazz, process_no, cpu_no, memory, elapsed_time, 
+    input_timeout, output_timeout, output_offset, begin_time_offset, check_type, mode, 
+    yarn_queue_name, hadoop_account, retry_times, only_alert_owner, use_default_alert, 
+    use_phone_alert, use_sms_alert, use_mail_alert, alert_mails, alert_phones, alert_sms_phones, 
+    delete_flag, delete_time, version, create_time, update_time, product_line, dw_level, 
+    tag, mode_time, task_exe_type, cascade, input_paths, output_paths, remark
+    from capri_task
+  </select>
+  <resultMap id="BaseResultMap" type="com.didi.datainfra.jms.domain.entity.TaskDO">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="code" jdbcType="VARCHAR" property="code" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="user_code" jdbcType="VARCHAR" property="userCode" />
+    <result column="demand_side" jdbcType="VARCHAR" property="demandSide" />
+    <result column="project_code" jdbcType="VARCHAR" property="projectCode" />
+    <result column="task_type" jdbcType="VARCHAR" property="taskType" />
+    <result column="task_period_type" jdbcType="TINYINT" property="taskPeriodType" />
+    <result column="priority" jdbcType="TINYINT" property="priority" />
+    <result column="app_path" jdbcType="VARCHAR" property="appPath" />
+    <result column="common_app_path" jdbcType="VARCHAR" property="commonAppPath" />
+    <result column="main_clazz" jdbcType="VARCHAR" property="mainClazz" />
+    <result column="process_no" jdbcType="INTEGER" property="processNo" />
+    <result column="cpu_no" jdbcType="INTEGER" property="cpuNo" />
+    <result column="memory" jdbcType="INTEGER" property="memory" />
+    <result column="elapsed_time" jdbcType="INTEGER" property="elapsedTime" />
+    <result column="input_timeout" jdbcType="INTEGER" property="inputTimeout" />
+    <result column="output_timeout" jdbcType="INTEGER" property="outputTimeout" />
+    <result column="output_offset" jdbcType="INTEGER" property="outputOffset" />
+    <result column="begin_time_offset" jdbcType="INTEGER" property="beginTimeOffset" />
+    <result column="check_type" jdbcType="TINYINT" property="checkType" />
+    <result column="mode" jdbcType="TINYINT" property="mode" />
+    <result column="yarn_queue_name" jdbcType="VARCHAR" property="yarnQueueName" />
+    <result column="hadoop_account" jdbcType="VARCHAR" property="hadoopAccount" />
+    <result column="retry_times" jdbcType="TINYINT" property="retryTimes" />
+    <result column="only_alert_owner" jdbcType="TINYINT" property="onlyAlertOwner" />
+    <result column="use_default_alert" jdbcType="TINYINT" property="useDefaultAlert" />
+    <result column="use_phone_alert" jdbcType="TINYINT" property="usePhoneAlert" />
+    <result column="use_sms_alert" jdbcType="TINYINT" property="useSmsAlert" />
+    <result column="use_mail_alert" jdbcType="TINYINT" property="useMailAlert" />
+    <result column="alert_mails" jdbcType="VARCHAR" property="alertMails" />
+    <result column="alert_phones" jdbcType="VARCHAR" property="alertPhones" />
+    <result column="alert_sms_phones" jdbcType="VARCHAR" property="alertSmsPhones" />
+    <result column="delete_flag" jdbcType="TINYINT" property="deleteFlag" />
+    <result column="delete_time" jdbcType="TIMESTAMP" property="deleteTime" />
+    <result column="version" jdbcType="INTEGER" property="version" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="product_line" jdbcType="VARCHAR" property="productLine" />
+    <result column="dw_level" jdbcType="VARCHAR" property="dwLevel" />
+    <result column="tag" jdbcType="VARCHAR" property="tag" />
+    <result column="mode_time" jdbcType="TIMESTAMP" property="modeTime" />
+    <result column="task_exe_type" jdbcType="VARCHAR" property="taskExeType" />
+    <result column="cascade" jdbcType="BIT" property="cascade" />
+    <result column="input_paths" jdbcType="LONGVARCHAR" property="inputPaths" />
+    <result column="output_paths" jdbcType="LONGVARCHAR" property="outputPaths" />
+    <result column="remark" jdbcType="LONGVARCHAR" property="remark" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from capri_task
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.didi.datainfra.jms.domain.entity.TaskDO">
+    insert into capri_task (id, code, name, 
+      user_code, demand_side, project_code, 
+      task_type, task_period_type, priority, 
+      app_path, common_app_path, main_clazz, 
+      process_no, cpu_no, memory, 
+      elapsed_time, input_timeout, output_timeout, 
+      output_offset, begin_time_offset, check_type, 
+      mode, yarn_queue_name, hadoop_account, 
+      retry_times, only_alert_owner, use_default_alert, 
+      use_phone_alert, use_sms_alert, use_mail_alert, 
+      alert_mails, alert_phones, alert_sms_phones, 
+      delete_flag, delete_time, version, 
+      create_time, update_time, product_line, 
+      dw_level, tag, mode_time, 
+      task_exe_type, cascade, input_paths, 
+      output_paths, remark)
+    values (#{id,jdbcType=BIGINT}, #{code,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, 
+      #{userCode,jdbcType=VARCHAR}, #{demandSide,jdbcType=VARCHAR}, #{projectCode,jdbcType=VARCHAR}, 
+      #{taskType,jdbcType=VARCHAR}, #{taskPeriodType,jdbcType=TINYINT}, #{priority,jdbcType=TINYINT}, 
+      #{appPath,jdbcType=VARCHAR}, #{commonAppPath,jdbcType=VARCHAR}, #{mainClazz,jdbcType=VARCHAR}, 
+      #{processNo,jdbcType=INTEGER}, #{cpuNo,jdbcType=INTEGER}, #{memory,jdbcType=INTEGER}, 
+      #{elapsedTime,jdbcType=INTEGER}, #{inputTimeout,jdbcType=INTEGER}, #{outputTimeout,jdbcType=INTEGER}, 
+      #{outputOffset,jdbcType=INTEGER}, #{beginTimeOffset,jdbcType=INTEGER}, #{checkType,jdbcType=TINYINT}, 
+      #{mode,jdbcType=TINYINT}, #{yarnQueueName,jdbcType=VARCHAR}, #{hadoopAccount,jdbcType=VARCHAR}, 
+      #{retryTimes,jdbcType=TINYINT}, #{onlyAlertOwner,jdbcType=TINYINT}, #{useDefaultAlert,jdbcType=TINYINT}, 
+      #{usePhoneAlert,jdbcType=TINYINT}, #{useSmsAlert,jdbcType=TINYINT}, #{useMailAlert,jdbcType=TINYINT}, 
+      #{alertMails,jdbcType=VARCHAR}, #{alertPhones,jdbcType=VARCHAR}, #{alertSmsPhones,jdbcType=VARCHAR}, 
+      #{deleteFlag,jdbcType=TINYINT}, #{deleteTime,jdbcType=TIMESTAMP}, #{version,jdbcType=INTEGER}, 
+      #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}, #{productLine,jdbcType=VARCHAR}, 
+      #{dwLevel,jdbcType=VARCHAR}, #{tag,jdbcType=VARCHAR}, #{modeTime,jdbcType=TIMESTAMP}, 
+      #{taskExeType,jdbcType=VARCHAR}, #{cascade,jdbcType=BIT}, #{inputPaths,jdbcType=LONGVARCHAR}, 
+      #{outputPaths,jdbcType=LONGVARCHAR}, #{remark,jdbcType=LONGVARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.didi.datainfra.jms.domain.entity.TaskDO">
+    update capri_task
+    set code = #{code,jdbcType=VARCHAR},
+      name = #{name,jdbcType=VARCHAR},
+      user_code = #{userCode,jdbcType=VARCHAR},
+      demand_side = #{demandSide,jdbcType=VARCHAR},
+      project_code = #{projectCode,jdbcType=VARCHAR},
+      task_type = #{taskType,jdbcType=VARCHAR},
+      task_period_type = #{taskPeriodType,jdbcType=TINYINT},
+      priority = #{priority,jdbcType=TINYINT},
+      app_path = #{appPath,jdbcType=VARCHAR},
+      common_app_path = #{commonAppPath,jdbcType=VARCHAR},
+      main_clazz = #{mainClazz,jdbcType=VARCHAR},
+      process_no = #{processNo,jdbcType=INTEGER},
+      cpu_no = #{cpuNo,jdbcType=INTEGER},
+      memory = #{memory,jdbcType=INTEGER},
+      elapsed_time = #{elapsedTime,jdbcType=INTEGER},
+      input_timeout = #{inputTimeout,jdbcType=INTEGER},
+      output_timeout = #{outputTimeout,jdbcType=INTEGER},
+      output_offset = #{outputOffset,jdbcType=INTEGER},
+      begin_time_offset = #{beginTimeOffset,jdbcType=INTEGER},
+      check_type = #{checkType,jdbcType=TINYINT},
+      mode = #{mode,jdbcType=TINYINT},
+      yarn_queue_name = #{yarnQueueName,jdbcType=VARCHAR},
+      hadoop_account = #{hadoopAccount,jdbcType=VARCHAR},
+      retry_times = #{retryTimes,jdbcType=TINYINT},
+      only_alert_owner = #{onlyAlertOwner,jdbcType=TINYINT},
+      use_default_alert = #{useDefaultAlert,jdbcType=TINYINT},
+      use_phone_alert = #{usePhoneAlert,jdbcType=TINYINT},
+      use_sms_alert = #{useSmsAlert,jdbcType=TINYINT},
+      use_mail_alert = #{useMailAlert,jdbcType=TINYINT},
+      alert_mails = #{alertMails,jdbcType=VARCHAR},
+      alert_phones = #{alertPhones,jdbcType=VARCHAR},
+      alert_sms_phones = #{alertSmsPhones,jdbcType=VARCHAR},
+      delete_flag = #{deleteFlag,jdbcType=TINYINT},
+      delete_time = #{deleteTime,jdbcType=TIMESTAMP},
+      version = #{version,jdbcType=INTEGER},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      product_line = #{productLine,jdbcType=VARCHAR},
+      dw_level = #{dwLevel,jdbcType=VARCHAR},
+      tag = #{tag,jdbcType=VARCHAR},
+      mode_time = #{modeTime,jdbcType=TIMESTAMP},
+      task_exe_type = #{taskExeType,jdbcType=VARCHAR},
+      cascade = #{cascade,jdbcType=BIT},
+      input_paths = #{inputPaths,jdbcType=LONGVARCHAR},
+      output_paths = #{outputPaths,jdbcType=LONGVARCHAR},
+      remark = #{remark,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, code, name, user_code, demand_side, project_code, task_type, task_period_type, 
+    priority, app_path, common_app_path, main_clazz, process_no, cpu_no, memory, elapsed_time, 
+    input_timeout, output_timeout, output_offset, begin_time_offset, check_type, mode, 
+    yarn_queue_name, hadoop_account, retry_times, only_alert_owner, use_default_alert, 
+    use_phone_alert, use_sms_alert, use_mail_alert, alert_mails, alert_phones, alert_sms_phones, 
+    delete_flag, delete_time, version, create_time, update_time, product_line, dw_level, 
+    tag, mode_time, task_exe_type, cascade, input_paths, output_paths, remark
+    from capri_task
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, code, name, user_code, demand_side, project_code, task_type, task_period_type, 
+    priority, app_path, common_app_path, main_clazz, process_no, cpu_no, memory, elapsed_time, 
+    input_timeout, output_timeout, output_offset, begin_time_offset, check_type, mode, 
+    yarn_queue_name, hadoop_account, retry_times, only_alert_owner, use_default_alert, 
+    use_phone_alert, use_sms_alert, use_mail_alert, alert_mails, alert_phones, alert_sms_phones, 
+    delete_flag, delete_time, version, create_time, update_time, product_line, dw_level, 
+    tag, mode_time, task_exe_type, cascade, input_paths, output_paths, remark
+    from capri_task
+  </select>
+  <resultMap id="BaseResultMap" type="com.didi.datainfra.jms.domain.entity.TaskDO">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="code" jdbcType="VARCHAR" property="code" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="user_code" jdbcType="VARCHAR" property="userCode" />
+    <result column="demand_side" jdbcType="VARCHAR" property="demandSide" />
+    <result column="project_code" jdbcType="VARCHAR" property="projectCode" />
+    <result column="task_type" jdbcType="VARCHAR" property="taskType" />
+    <result column="task_period_type" jdbcType="TINYINT" property="taskPeriodType" />
+    <result column="priority" jdbcType="TINYINT" property="priority" />
+    <result column="app_path" jdbcType="VARCHAR" property="appPath" />
+    <result column="common_app_path" jdbcType="VARCHAR" property="commonAppPath" />
+    <result column="main_clazz" jdbcType="VARCHAR" property="mainClazz" />
+    <result column="process_no" jdbcType="INTEGER" property="processNo" />
+    <result column="cpu_no" jdbcType="INTEGER" property="cpuNo" />
+    <result column="memory" jdbcType="INTEGER" property="memory" />
+    <result column="elapsed_time" jdbcType="INTEGER" property="elapsedTime" />
+    <result column="input_timeout" jdbcType="INTEGER" property="inputTimeout" />
+    <result column="output_timeout" jdbcType="INTEGER" property="outputTimeout" />
+    <result column="output_offset" jdbcType="INTEGER" property="outputOffset" />
+    <result column="begin_time_offset" jdbcType="INTEGER" property="beginTimeOffset" />
+    <result column="check_type" jdbcType="TINYINT" property="checkType" />
+    <result column="mode" jdbcType="TINYINT" property="mode" />
+    <result column="yarn_queue_name" jdbcType="VARCHAR" property="yarnQueueName" />
+    <result column="hadoop_account" jdbcType="VARCHAR" property="hadoopAccount" />
+    <result column="retry_times" jdbcType="TINYINT" property="retryTimes" />
+    <result column="only_alert_owner" jdbcType="TINYINT" property="onlyAlertOwner" />
+    <result column="use_default_alert" jdbcType="TINYINT" property="useDefaultAlert" />
+    <result column="use_phone_alert" jdbcType="TINYINT" property="usePhoneAlert" />
+    <result column="use_sms_alert" jdbcType="TINYINT" property="useSmsAlert" />
+    <result column="use_mail_alert" jdbcType="TINYINT" property="useMailAlert" />
+    <result column="alert_mails" jdbcType="VARCHAR" property="alertMails" />
+    <result column="alert_phones" jdbcType="VARCHAR" property="alertPhones" />
+    <result column="alert_sms_phones" jdbcType="VARCHAR" property="alertSmsPhones" />
+    <result column="delete_flag" jdbcType="TINYINT" property="deleteFlag" />
+    <result column="delete_time" jdbcType="TIMESTAMP" property="deleteTime" />
+    <result column="version" jdbcType="INTEGER" property="version" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="product_line" jdbcType="VARCHAR" property="productLine" />
+    <result column="dw_level" jdbcType="VARCHAR" property="dwLevel" />
+    <result column="tag" jdbcType="VARCHAR" property="tag" />
+    <result column="mode_time" jdbcType="TIMESTAMP" property="modeTime" />
+    <result column="task_exe_type" jdbcType="VARCHAR" property="taskExeType" />
+    <result column="cascade" jdbcType="BIT" property="cascade" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.didi.datainfra.jms.domain.entity.TaskDO">
     <result column="input_paths" jdbcType="LONGVARCHAR" property="inputPaths" />
     <result column="output_paths" jdbcType="LONGVARCHAR" property="outputPaths" />
     <result column="remark" jdbcType="LONGVARCHAR" property="remark" />
@@ -172,7 +488,7 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.didi.datainfra.jms.domain.entity.TaskDOWithBLOBs">
+  <insert id="insert" parameterType="com.didi.datainfra.jms.domain.entity.TaskDO">
     insert into capri_task (id, code, name, 
       user_code, demand_side, project_code, 
       task_type, task_period_type, priority, 
@@ -206,7 +522,7 @@
       #{taskExeType,jdbcType=VARCHAR}, #{cascade,jdbcType=BIT}, #{inputPaths,jdbcType=LONGVARCHAR}, 
       #{outputPaths,jdbcType=LONGVARCHAR}, #{remark,jdbcType=LONGVARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.didi.datainfra.jms.domain.entity.TaskDOWithBLOBs">
+  <insert id="insertSelective" parameterType="com.didi.datainfra.jms.domain.entity.TaskDO">
     insert into capri_task
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -753,7 +1069,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.didi.datainfra.jms.domain.entity.TaskDOWithBLOBs">
+  <update id="updateByPrimaryKeySelective" parameterType="com.didi.datainfra.jms.domain.entity.TaskDO">
     update capri_task
     <set>
       <if test="code != null">
@@ -897,7 +1213,7 @@
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.didi.datainfra.jms.domain.entity.TaskDOWithBLOBs">
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.didi.datainfra.jms.domain.entity.TaskDO">
     update capri_task
     set code = #{code,jdbcType=VARCHAR},
       name = #{name,jdbcType=VARCHAR},

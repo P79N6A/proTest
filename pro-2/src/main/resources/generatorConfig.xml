@@ -4,7 +4,7 @@
 <generatorConfiguration>
 	<classPathEntry
 		location="/Users/didi/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar" />
-	<context id="context1"  targetRuntime="MyBatis3">
+	<context id="context1"  defaultModelType="flat" targetRuntime="MyBatis3Simple">
         <!-- 为了防止生成的代码中有很多注释，比较难看，加入下面的配置控制  -->
         <!-- 是否去除自动生成的注释 true：是 ：false:否 -->
         <commentGenerator >
