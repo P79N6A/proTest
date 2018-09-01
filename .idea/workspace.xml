@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b22c253f-fe56-4eb5-8cd9-b7fd3120ab6c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pro-1/target/" />
@@ -50,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -551,7 +550,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534845885047</updated>
-      <workItem from="1534845888071" duration="83565000" />
+      <workItem from="1534845888071" duration="83702000" />
     </task>
     <task id="LOCAL-00001" summary="mybastis-generator插件，英文注释版（可以关闭）">
       <created>1535783730832</created>
@@ -560,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535783730832</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".idea(应该不传)">
+      <created>1535783858165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535783858165</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -596,7 +602,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83565000" />
+    <option name="totallyTimeSpent" value="83702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -621,10 +627,10 @@
       <window_info anchor="bottom" id="Java Enterprise" weight="0.3298969" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3814433" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.24889544" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.24889544" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" weight="0.24889544" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72316384" visible="true" weight="0.23054755" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72316384" visible="true" weight="0.23054755" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.20913108" />
       <window_info anchor="right" id="Theme Preview" />
@@ -670,7 +676,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mybastis-generator插件，英文注释版（可以关闭）" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybastis-generator插件，英文注释版（可以关闭）" />
+    <MESSAGE value=".idea(应该不传)" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea(应该不传)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pro-2-log4j2/pom.xml">
@@ -1026,7 +1033,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
