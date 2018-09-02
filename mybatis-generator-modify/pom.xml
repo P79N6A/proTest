@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mybatis-genarator-modify</artifactId>
+    <artifactId>mybatis-generator-modify</artifactId>
 
     <!--mybatis-generator-plus源码找那个需要以下依赖-->
     <dependencies>

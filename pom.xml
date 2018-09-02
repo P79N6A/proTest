@@ -9,14 +9,14 @@
     <version>1.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
-    <name>jms-all</name>
+    <name>pro-all</name>
 
     <modules>
         <module>pro-1</module>
         <module>pro-2</module>
         <module>quartz-test</module>
         <module>mybatis-generator-plus</module>
-        <module>mybatis-genarator-plus2</module>
+        <module>mybatis-generator-modify</module>
     </modules>
 
     <properties>
