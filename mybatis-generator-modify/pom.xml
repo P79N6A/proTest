@@ -26,8 +26,8 @@
     </dependencies>
 
     <build>
-
-        <finalName>mybatis-genarator-modify</finalName>
+        <!--这个名称是maven project里显示的名称，写错了也会显示错-->
+        <finalName>mybatis-generator-modify</finalName>
 
         <!--该resource节点的加入是为了将dtd文件也打包，否则出错-->
         <resources>
@@ -60,7 +60,7 @@
                 <version>2.6</version>
                 <!--assembly的配置-->
                 <configuration>
-                    <finalName>mybatis-genarator-modify</finalName>
+                    <finalName>mybatis-generator-modify</finalName>
 
                     <!--这里先使用自带的打包，后续再修改成复杂的-->
                     <descriptorRefs>
