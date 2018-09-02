@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mybatis-generator-modify" />
+        <module name="mybatis-generator-plus" />
         <module name="pro-1" />
         <module name="pro-2" />
         <module name="pro-2-log4j2" />
