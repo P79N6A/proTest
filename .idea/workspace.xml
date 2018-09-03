@@ -7,8 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b22c253f-fe56-4eb5-8cd9-b7fd3120ab6c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-modify/generatorConfig.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro-2-log4j2/src/main/java/cn/whbing/pro/web/domain/entity/Foo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro-2-log4j2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/target/pro-2-log4j2-1.0-SNAPSHOT/WEB-INF/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro-2-log4j2/target/pro-2-log4j2-1.0-SNAPSHOT/WEB-INF/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/target/pro-2-log4j2-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pro-1/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,20 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="assembly.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/assembly/assembly.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/shell/config/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="218">
-              <caret line="19" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="19" />
+              <caret line="19" selection-start-line="16" selection-start-column="8" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -71,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/target/mybatis-generator-modify-distribution/shell/src/main/java/com/didi/datainfra/jms/domain/entity/TaskDO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-3139">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#10768#0" expanded="true" />
               </folding>
@@ -86,38 +82,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pro-2-log4j2/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="277">
+              <caret line="109" column="26" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OutputUtilities.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/main/java/org/mybatis/generator/api/dom/OutputUtilities.java">
+      <file leaf-file-name="ReadSpecialLineController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pro-2-log4j2/src/main/java/cn/whbing/pro/web/controller/ReadSpecialLineController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+            <state relative-caret-position="123">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntrospectedTable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/main/java/org/mybatis/generator/api/IntrospectedTable.java">
+      <file leaf-file-name="Foo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pro-2-log4j2/src/main/java/cn/whbing/pro/web/domain/entity/Foo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="804" column="52" selection-start-line="804" selection-start-column="52" selection-end-line="804" selection-end-column="52" />
+            <state relative-caret-position="141">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultCommentGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/main/java/org/mybatis/generator/internal/DefaultCommentGenerator.java">
+      <file leaf-file-name="FooController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pro-2-log4j2/src/main/java/cn/whbing/pro/web/controller/FooController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1510">
-              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            <state relative-caret-position="393">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,7 +183,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pro-2/src/main/resources/config/db.properties" />
-        <option value="$PROJECT_DIR$/pro-2-log4j2/pom.xml" />
         <option value="$PROJECT_DIR$/pro-2-log4j2/src/test/java/cn/whbing/pro/web/service/ReadSpecialLineSringTest.java" />
         <option value="$PROJECT_DIR$/pro-2-log4j2/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/pro-2/src/test/java/cn/whbing/pro/web/service/MybatisTest.java" />
@@ -210,6 +227,10 @@
         <option value="$PROJECT_DIR$/mybatis-generator-modify/src/shell/config/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/mybatis-generator-modify/generatorConfigBAK.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pro-2-log4j2/pom.xml" />
+        <option value="$PROJECT_DIR$/pro-2-log4j2/src/main/java/cn/whbing/pro/web/controller/ReadSpecialLineController.java" />
+        <option value="$PROJECT_DIR$/pro-2-log4j2/src/main/java/cn/whbing/pro/web/controller/FooController.java" />
+        <option value="$PROJECT_DIR$/pro-2-log4j2/src/main/java/cn/whbing/pro/web/domain/entity/Foo.java" />
       </list>
     </option>
   </component>
@@ -242,8 +263,7 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mybatis-generator-modify" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="pro-2-log4j2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -253,8 +273,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="49" />
+    <option name="x" value="40" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -275,7 +295,92 @@
             <path>
               <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="proTest" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-generator-modify" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2-log4j2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2-log4j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2-log4j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2-log4j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2-log4j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2-log4j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2-log4j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2-log4j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2-log4j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,28 +431,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.mybatis-genarator-modify-jar-with-dependencies.jar">
-    <configuration name="ShellRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.mybatis.generator.api.ShellRunner" />
-      <module name="mybatis-generator-modify" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mybatis.generator.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StartUp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StartUp" />
-      <module name="mybatis-generator-modify" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="StartUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StartUp" />
-      <module name="mybatis-generator-plus" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.pro-2-log4j2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -390,9 +474,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="mybatis-genarator-modify-jar-with-dependencies.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/mybatis-generator-modify/target/mybatis-genarator-modify-jar-with-dependencies.jar" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -415,7 +496,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="pro-2-log4j2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="pro-2-log4j2:war exploded">
@@ -487,19 +568,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Tomcat Server.pro-2-log4j2" />
       <item itemvalue="JUnit.ConnectTestTest.test" />
-      <item itemvalue="Application.StartUp" />
-      <item itemvalue="Application.StartUp (1)" />
-      <item itemvalue="Application.ShellRunner" />
-      <item itemvalue="JAR Application.mybatis-genarator-modify-jar-with-dependencies.jar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.mybatis-genarator-modify-jar-with-dependencies.jar" />
-        <item itemvalue="Application.StartUp" />
-        <item itemvalue="Application.StartUp (1)" />
-        <item itemvalue="Application.ShellRunner" />
         <item itemvalue="JUnit.ConnectTestTest.test" />
       </list>
     </recent_temporary>
@@ -517,7 +590,7 @@
       <workItem from="1534845888071" duration="104192000" />
       <workItem from="1535902909285" duration="170000" />
       <workItem from="1535903105019" duration="246000" />
-      <workItem from="1535903425433" duration="10702000" />
+      <workItem from="1535903425433" duration="15566000" />
     </task>
     <task id="LOCAL-00001" summary="mybastis-generator插件，英文注释版（可以关闭）">
       <created>1535783730832</created>
@@ -569,16 +642,16 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115310000" />
+    <option name="totallyTimeSpent" value="120174000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="49" width="1440" height="873" extended-state="0" />
+    <frame x="40" y="23" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3298969" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.15129682" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="3" visible="true" weight="0.15129682" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -588,20 +661,21 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298969" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3298969" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25562915" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25562915" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.24889544" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4331126" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72316384" visible="true" weight="0.2644092" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24635762" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72316384" visible="true" weight="0.15850145" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.20913108" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.27683616" side_tool="true" weight="0.2514409" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298969" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -647,29 +721,6 @@
     <option name="LAST_COMMIT_MESSAGE" value=".idea(应该不传)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-plus/src/main/java/org/mybatis/generator/api/ShellRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="72" column="56" selection-start-line="72" selection-start-column="56" selection-end-line="72" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pro-2/src/main/java/generator/StartUp.java" />
-    <entry file="file://$PROJECT_DIR$/pro-2/src/main/java/StartUp.java" />
-    <entry file="file://$PROJECT_DIR$/pro-2/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-plus/src/main/java/org/mybatis/generator/config/xml/ConfigurationParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-genarator-plus2/src/main/java/org/mybatis/generator/ant/GeneratorAntTask.java" />
     <entry file="file://$PROJECT_DIR$/mybatis-genarator-plus2/src/main/java/org/mybatis/generator/ant/AntProgressCallback.java" />
     <entry file="file://$PROJECT_DIR$/mybatis-genarator-plus2/src/main/java/org/mybatis/generator/internal/DefaultCommentGenerator.java" />
@@ -805,16 +856,11 @@
     <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/target/mybatis-generator-modify-distribution/shell/src/main/java/com/didi/datainfra/jms/domain/entity/TaskDO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3139">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#10768#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/target/mybatis-generator-modify-distribution/shell/src/main/resources/sqlmap/TaskDOMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/generatorConfig.xml">
@@ -827,7 +873,7 @@
     <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/shell/config/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
-          <caret line="19" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="19" />
+          <caret line="19" selection-start-line="16" selection-start-column="8" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -847,8 +893,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="125">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/target/mybatis-generator-modify-distribution/shell/src/main/resources/sqlmap/TaskDOMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2-log4j2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="109" column="26" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2-log4j2/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2-log4j2/src/main/java/cn/whbing/pro/web/controller/ReadSpecialLineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2-log4j2/src/main/java/cn/whbing/pro/web/controller/FooController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-2-log4j2/src/main/java/cn/whbing/pro/web/domain/entity/Foo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

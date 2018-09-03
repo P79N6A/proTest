@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-generator-modify" />
-        <module name="mybatis-generator-plus" />
         <module name="pro-1" />
         <module name="pro-2" />
         <module name="pro-2-log4j2" />
@@ -17,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mybatis-genarator-modify" target="1.5" />
+      <module name="mybatis-generator-plus" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
