@@ -16,7 +16,7 @@
 
 		<property name="javaFileEncoding" value="UTF-8"/>
 		<!--配置生成注释，默认注释已经修改 -->
-		<property name="suppressAllComments" value="false"/>
+		<property name="suppressAllComments" value="true"/>
 
 		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
 			connectionURL="jdbc:MySql://localhost/jms3?characterEncoding=UTF-8&amp;allowMultiQueries=true"

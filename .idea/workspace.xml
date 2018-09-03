@@ -7,11 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b22c253f-fe56-4eb5-8cd9-b7fd3120ab6c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-modify/src/shell/config/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-modify/src/shell/startup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-modify/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-modify/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-modify/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-modify/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-modify/src/main/java/org/mybatis/generator/api/IntrospectedTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-modify/src/main/java/org/mybatis/generator/api/IntrospectedTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-modify/src/main/java/org/mybatis/generator/internal/DefaultCommentGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-modify/src/main/java/org/mybatis/generator/internal/DefaultCommentGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-modify/src/main/java/t/tt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-modify/src/main/resources/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-modify/src/shell/config/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-modify/src/shell/config/generatorConfig.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pro-1/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,24 +36,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-generator-plus/src/main/resources/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="11" column="60" selection-start-line="9" selection-start-column="8" selection-end-line="11" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="assembly.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/assembly/assembly.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,52 +46,82 @@
         </entry>
       </file>
       <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/main/resources/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/shell/config/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="250">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="startup.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TaskDO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/target/mybatis-generator-modify-distribution/shell/src/main/java/com/didi/datainfra/jms/domain/entity/TaskDO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3139">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#10768#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskDOMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/target/mybatis-generator-modify-distribution/shell/src/main/resources/sqlmap/TaskDOMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-741" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutputUtilities.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/main/java/org/mybatis/generator/api/dom/OutputUtilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntrospectedTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/main/java/org/mybatis/generator/api/IntrospectedTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="804" column="52" selection-start-line="804" selection-start-column="52" selection-end-line="804" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultCommentGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/main/java/org/mybatis/generator/internal/DefaultCommentGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1510">
+              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="startup.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/shell/startup.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-generator-plus/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
-            </state>
+            <state relative-caret-position="-243" />
           </provider>
         </entry>
       </file>
@@ -139,6 +153,8 @@
       <find>finalName</find>
       <find>genara</find>
       <find>genarator</find>
+      <find>OutputUtilities</find>
+      <find>calculateJavaClientAttributes</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/mybatis-generator-plus/target/src/main</dir>
@@ -168,7 +184,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pro-2/pom.xml" />
         <option value="$PROJECT_DIR$/pro-2/src/main/java/com/didi/datainfra/jms/dao/TaskDOMapper.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pro-2/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/mybatis-generator-plus/src/main/java/org/mybatis/generator/api/dom/OutputUtilities.java" />
         <option value="$PROJECT_DIR$/mybatis-generator-plus/src/main/java/org/mybatis/generator/api/dom/java/InnerClass.java" />
@@ -189,11 +204,14 @@
         <option value="$PROJECT_DIR$/mybatis-genarator-modify/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-generator-modify/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/mybatis-generator-modify/src/shell/config/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/mybatis-generator-modify/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-generator-modify/src/assembly/assembly.xml" />
         <option value="$PROJECT_DIR$/mybatis-generator-modify/target/mybatis-generator-modify-distribution/shell/startup.sh" />
         <option value="$PROJECT_DIR$/mybatis-generator-modify/src/shell/startup.sh" />
+        <option value="$PROJECT_DIR$/mybatis-generator-modify/src/shell/config/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/mybatis-generator-modify/src/main/java/org/mybatis/generator/api/IntrospectedTable.java" />
+        <option value="$PROJECT_DIR$/mybatis-generator-modify/src/main/java/org/mybatis/generator/internal/DefaultCommentGenerator.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -237,7 +255,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="9" />
+    <option name="y" value="49" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -258,53 +277,12 @@
             <path>
               <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="proTest" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-generator-modify" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="proTest" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-generator-modify" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proTest" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-generator-modify" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proTest" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-generator-modify" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="shell" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proTest" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-generator-plus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proTest" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-generator-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proTest" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-generator-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proTest" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-generator-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pro-2-log4j2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -546,7 +524,7 @@
       <workItem from="1534845888071" duration="104192000" />
       <workItem from="1535902909285" duration="170000" />
       <workItem from="1535903105019" duration="246000" />
-      <workItem from="1535903425433" duration="7709000" />
+      <workItem from="1535903425433" duration="10243000" />
     </task>
     <task id="LOCAL-00001" summary="mybastis-generator插件，英文注释版（可以关闭）">
       <created>1535783730832</created>
@@ -598,10 +576,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112317000" />
+    <option name="totallyTimeSpent" value="114851000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+    <frame x="9" y="49" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -621,18 +599,18 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3298969" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25562915" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25562915" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.24889544" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4331126" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72316384" visible="true" weight="0.3220461" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4331126" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72316384" visible="true" weight="0.2644092" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.20913108" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.27683616" side_tool="true" weight="0.2514409" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3298969" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.20913108" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -676,62 +654,6 @@
     <option name="LAST_COMMIT_MESSAGE" value=".idea(应该不传)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-plus/src/main/java/org/mybatis/generator/internal/DefaultDAOMethodNameCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-plus/src/main/java/org/mybatis/generator/internal/DefaultShellCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-plus/src/main/java/org/mybatis/generator/api/dom/OutputUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pro-2/src/main/resources/sqlmap/mysql-jms/TaskDOMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-plus/src/main/java/org/mybatis/generator/api/dom/java/InnerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="246" column="36" selection-start-line="246" selection-start-column="36" selection-end-line="246" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-plus/src/main/java/org/mybatis/generator/internal/db/DatabaseDialects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-plus/src/main/java/org/mybatis/generator/internal/db/DatabaseIntrospector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="624" selection-start-line="624" selection-end-line="624" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-plus/src/main/java/org/mybatis/generator/internal/DefaultCommentGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-generator-plus/src/main/java/org/mybatis/generator/api/ShellCallback.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -819,24 +741,10 @@
     <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/target/classes/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-generator-plus/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="11" column="60" selection-start-line="9" selection-start-column="8" selection-end-line="11" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/shell/config/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -861,8 +769,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/shell/startup.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/target/mybatis-generator-modify-distribution/shell/src/main/java/com/didi/datainfra/jms/dao/TaskDOMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <folding>
+            <element signature="e#0#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/assembly/assembly.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -871,10 +804,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/shell/startup.sh">
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/main/java/t/tt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/main/java/org/mybatis/generator/api/dom/OutputUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/main/java/org/mybatis/generator/api/IntrospectedTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="804" column="52" selection-start-line="804" selection-start-column="52" selection-end-line="804" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/main/java/org/mybatis/generator/internal/DefaultCommentGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1510">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/src/shell/config/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/target/mybatis-generator-modify-distribution/shell/src/main/java/com/didi/datainfra/jms/domain/entity/TaskDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3139">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#10768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-modify/target/mybatis-generator-modify-distribution/shell/src/main/resources/sqlmap/TaskDOMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>

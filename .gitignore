@@ -2,9 +2,10 @@
 #Maven忽略文件和目录
 *.iml
 *.log
-#.idea/
+.idea/
 target/
 logs/
+log4j2-pro2/
 *.log
 
 #python
