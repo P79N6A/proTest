@@ -7,6 +7,7 @@ target/
 logs/
 log4j2-pro2/
 *.log
+generatorConfigBAK.xml
 
 #python
 *pyc
