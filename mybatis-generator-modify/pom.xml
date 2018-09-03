@@ -26,7 +26,7 @@
     </dependencies>
 
     <build>
-        <!--这个名称是maven project里显示的名称，写错了也会显示错-->
+        <!--这个名称是maven project里显示的名称-->
         <finalName>mybatis-generator-modify</finalName>
 
         <!--该resource节点的加入是为了将dtd文件也打包，否则出错-->
@@ -61,18 +61,20 @@
                 <!--assembly的配置-->
                 <configuration>
                     <finalName>mybatis-generator-modify</finalName>
-
-                    <!--这里先使用自带的打包，后续再修改成复杂的-->
-                    <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
-                    </descriptorRefs>
-                    <!--入口文件-->
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <mainClass>org.mybatis.generator.api.ShellRunner</mainClass> <!-- 你的主类名 -->
                         </manifest>
                     </archive>
+
+                    <!--这里先使用自带的打包，后续再修改成复杂的-->
+                    <!--<descriptorRefs>-->
+                        <!--<descriptorRef>jar-with-dependencies</descriptorRef>-->
+                    <!--</descriptorRefs>-->
+                    <descriptors>
+                        <descriptor>src/assembly/assembly.xml</descriptor>
+                    </descriptors>
                 </configuration>
 
                 <!--在package生命周期执行-->

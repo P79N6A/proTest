@@ -7,12 +7,16 @@
 	<context id="context1"  defaultModelType="flat" targetRuntime="MyBatis3Simple">
         <!-- 为了防止生成的代码中有很多注释，比较难看，加入下面的配置控制  -->
         <!-- 是否去除自动生成的注释 true：是 ：false:否 -->
-        <commentGenerator >
-            <property name="suppressDate" value="true"/>
-            <property name="suppressAllComments" value="true"/>
-        </commentGenerator>
+        <!--<commentGenerator >-->
+            <!--<property name="suppressDate" value="true"/>-->
+            <!--<property name="suppressAllComments" value="true"/>-->
+        <!--</commentGenerator>-->
 		<!--去除注释的配置要放在数据库配置的前面，不然会报错-->
         <!-- 注释end -->
+
+		<property name="javaFileEncoding" value="UTF-8"/>
+		<!--配置生成注释，默认注释已经修改 -->
+		<property name="suppressAllComments" value="false"/>
 
 		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
 			connectionURL="jdbc:MySql://localhost/jms3?characterEncoding=UTF-8&amp;allowMultiQueries=true"
