@@ -19,15 +19,15 @@
 		<property name="suppressAllComments" value="true"/>
 
 		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
-			connectionURL="jdbc:MySql://localhost/jms3?characterEncoding=UTF-8&amp;allowMultiQueries=true"
+			connectionURL="jdbc:MySql://localhost/**?characterEncoding=UTF-8&amp;allowMultiQueries=true"
 			userId="root" password="whb" />
-		<javaModelGenerator targetPackage="com.didi.datainfra.jms.domain.entity"
+		<javaModelGenerator targetPackage="com.***.domain.entity"
 			targetProject="src/main/java" />
 		<sqlMapGenerator targetPackage="sqlmap"
 			targetProject="src/main/resources" />
-		<javaClientGenerator targetPackage="com.didi.datainfra.jms.dao"
+		<javaClientGenerator targetPackage="com.***.dao"
 			targetProject="src/main/java" type="XMLMAPPER" />
-		<table tableName="capri_task" domainObjectName="TaskDO"
+		<table tableName="****" domainObjectName="**Entity"
 			enableCountByExample="true" enableUpdateByExample="true"
 			enableDeleteByExample="true" enableSelectByExample="true"
 			selectByExampleQueryId="false"></table>
