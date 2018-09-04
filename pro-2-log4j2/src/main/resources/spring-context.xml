@@ -12,4 +12,13 @@
     <context:component-scan base-package="cn.whbing.pro.web"/>
     <mvc:annotation-driven enable-matrix-variables="true" />
 
+    <!--start-该注解解决responseBody乱码问题-->
+    <mvc:annotation-driven>
+        <mvc:message-converters register-defaults="true">
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <constructor-arg value="UTF-8" />
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+    <!--end-->
 </beans>

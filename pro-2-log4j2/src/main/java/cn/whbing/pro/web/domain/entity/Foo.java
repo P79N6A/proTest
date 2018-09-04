@@ -2,15 +2,19 @@ package cn.whbing.pro.web.domain.entity;
 
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotBlank;
+import org.hibernate.validator.constraints.Range;
 
 import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
 public class Foo {
     @NotBlank
     private String name;
 
-    @Min(value = 12,message = "年龄最小12")
+    //@Min(value = 12,message = "年龄最小12")
+    @NotNull(message = "年龄不能为空")
+    @Range(min = 12,max=22,message = "年龄最小12")
     private Integer age;
 
     @Pattern(regexp = "^1(3|4|5|7|8)\\d{9}$",message = "手机号码格式错误")
