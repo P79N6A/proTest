@@ -1,3 +1,4 @@
+#配置规则：dir/ 不管是根目录还是子目录dir都生效；/dir/ 仅根目录下的dir
 .DS_Store
 #Maven忽略文件和目录
 *.iml
