@@ -8,7 +8,30 @@
   <component name="ChangeListManager">
     <list default="true" id="b22c253f-fe56-4eb5-8cd9-b7fd3120ab6c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/error/error - 2018-08-23 15_23_56.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/error/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/info/info - 2018-08-23 15_18_12.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/info/info - 2018-08-23 15_18_13.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/info/info - 2018-08-23 15_18_14.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/info/info - 2018-08-23 15_26_57.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/info/info - 2018-08-23 15_26_58.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/info/info - 2018-08-23 15_26_59.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/info/info - 2018-08-23 15_27_50.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/info/info - 2018-08-23 15_27_51.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/info/info - 2018-08-23 15_28_11.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/info/info - 2018-08-23 15_28_12.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/info/info - 2018-08-23 15_28_13.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/info/info - 2018-08-31 10_27_55.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/info/info - 2018-08-31 10_27_56.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro-2-log4j2/log4j2-pro2/info/info.log" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pro-1/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/pro-2-log4j2/src/main/java/cn/whbing/pro/web/domain/entity/Foo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="123">
-              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#547#548#0" expanded="true" />
@@ -67,8 +90,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="839">
+              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -89,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/pro-1/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -98,7 +121,7 @@
         <entry file="file://$PROJECT_DIR$/pro-1/src/main/java/JsonToObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-318">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
@@ -125,7 +148,11 @@
       </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="FooController.java" pinned="false" current-in-tab="false">
@@ -144,7 +171,7 @@
         <entry file="file://$PROJECT_DIR$/pro-2-log4j2/src/main/resources/spring-context.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="549">
-              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -267,16 +294,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mybatis-generator-modify" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="pro-all" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -307,27 +325,6 @@
               <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="proTest" type="462c0819:PsiDirectoryNode" />
               <item name="pro-1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proTest" type="462c0819:PsiDirectoryNode" />
-              <item name="pro-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proTest" type="462c0819:PsiDirectoryNode" />
-              <item name="pro-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proTest" type="462c0819:PsiDirectoryNode" />
-              <item name="pro-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -610,7 +607,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129241000" />
+    <option name="totallyTimeSpent" value="129659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="23" width="1440" height="873" extended-state="0" />
@@ -635,10 +632,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3298969" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.43046358" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.54304636" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.37615895" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.42119205" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72316384" visible="true" weight="0.24855907" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.42119205" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72316384" visible="true" weight="0.24855907" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.20913108" />
@@ -846,7 +843,7 @@
     <entry file="file://$PROJECT_DIR$/pro-2-log4j2/src/main/resources/spring-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -866,7 +863,7 @@
     <entry file="file://$PROJECT_DIR$/pro-2-log4j2/src/main/java/cn/whbing/pro/web/domain/entity/Foo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#547#548#0" expanded="true" />
@@ -894,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="839">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -926,7 +923,7 @@
     <entry file="file://$PROJECT_DIR$/pro-1/src/main/java/JsonToObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-318">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#268#269#0" expanded="true" />
@@ -944,7 +941,7 @@
     <entry file="file://$PROJECT_DIR$/pro-1/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -956,7 +953,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
