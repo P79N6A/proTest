@@ -1,11 +1,10 @@
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.sql.SQLOutput;
 
 public class JsonOrgTest {
-    public static void main(String[] args) {
-        //tring json = "{ \"baselines\": { \"add\": [{ \"baselineId\": 123, \"projectId\": 123, \"projectCode\": \"test\", \"name\": \"基线名\", \"priority\": 1,  \"alarmTime\": \"23:59\", \"slaTime\": \"23:59\",  \"slaType\": 1,  \"isDefault\": 0,  \"owner\": \"基线责任人\" },{ \"baselineId\": 123, \"projectId\": 123, \"projectCode\": \"test\", \"name\": \"基线名\", \"priority\": 1,  \"alarmTime\": \"23:59\", \"slaTime\": \"23:59\",  \"slaType\": 1,  \"isDefault\": 0,  \"owner\": \"基线责任人\" }],  \"update\": [{ \"baselineId\": 123, \"projectId\": 123, \"projectCode\": \"test\", \"name\": \"基线名\", \"priority\": 1, \"alarmTime\": \"23:59\",  \"slaTime\": \"23:59\",  \"slaType\": 1, \"isDefault\": 0,  \"owner\": \"基线责任人\" }],  \"delete\": [{ \"baselineId\": 123, \"projectId\": 123, \"projectCode\": \"test\", \"name\": \"基线名\" }] } }";
+    public static void main(String[] args) throws Exception{
+        //String json = "{ \"baselines\": { \"add\": [{ \"baselineId\": 123, \"projectId\": 123, \"projectCode\": \"test\", \"name\": \"基线名\", \"priority\": 1,  \"alarmTime\": \"23:59\", \"slaTime\": \"23:59\",  \"slaType\": 1,  \"isDefault\": 0,  \"owner\": \"基线责任人\" },{ \"baselineId\": 123, \"projectId\": 123, \"projectCode\": \"test\", \"name\": \"基线名\", \"priority\": 1,  \"alarmTime\": \"23:59\", \"slaTime\": \"23:59\",  \"slaType\": 1,  \"isDefault\": 0,  \"owner\": \"基线责任人\" }],  \"update\": [{ \"baselineId\": 123, \"projectId\": 123, \"projectCode\": \"test\", \"name\": \"基线名\", \"priority\": 1, \"alarmTime\": \"23:59\",  \"slaTime\": \"23:59\",  \"slaType\": 1, \"isDefault\": 0,  \"owner\": \"基线责任人\" }],  \"delete\": [{ \"baselineId\": 123, \"projectId\": 123, \"projectCode\": \"test\", \"name\": \"基线名\" }] } }";
         String json = "{ \"add\": [{ \"baselineId\": 123, \"projectId\": 123, \"projectCode\": \"test\", \"name\": \"基线名\", \"priority\": 1,  \"alarmTime\": \"23:59\", \"slaTime\": \"23:59\",  \"slaType\": 1,  \"isDefault\": 0,  \"owner\": \"基线责任人\" },{ \"baselineId\": 123, \"projectId\": 123, \"projectCode\": \"test\", \"name\": \"基线名\", \"priority\": 1,  \"alarmTime\": \"23:59\", \"slaTime\": \"23:59\",  \"slaType\": 1,  \"isDefault\": 0,  \"owner\": \"基线责任人\" }]}";
 
         //JSONObject obj = new JSONObject(s1);
