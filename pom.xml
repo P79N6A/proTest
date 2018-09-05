@@ -15,7 +15,6 @@
         <module>pro-1</module>
         <module>pro-2</module>
         <module>quartz-test</module>
-        <module>mybatis-generator-plus</module>
         <module>mybatis-generator-modify</module>
     </modules>
 
