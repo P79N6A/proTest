@@ -56,5 +56,22 @@ public class ReadSpecialLineServiceImpl implements ReadSpecialLineService {
         //return processList;//返回List<String>时
         return stringBuffer.toString();
     }
+    /**
+     *
+     * 备份代码：
+     Process process;
+     String projectDir = System.getProperty("user.dir");
+     String fileDir = "/jms-common/src/main/java/com/.../utils/textUtils/shell/read_lines.sh";
+     String shPath = projectDir + fileDir; //.sh文件的绝对路径
+
+     // startLine、endLine、filePath 分别以$1、$2、$3传入shell
+     String cmd = shPath + " " + startLine + " " + endLine + " " + filePath;
+
+     StringBuffer stringBuffer= new StringBuffer();
+     try {
+     *
+     *
+     *
+     */
 
 }
