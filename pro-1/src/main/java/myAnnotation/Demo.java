@@ -1,8 +1,5 @@
 package myAnnotation;
 
-import com.sun.corba.se.impl.orbutil.ObjectStreamClassUtil_1_3;
-
-import java.beans.MethodDescriptor;
 import java.util.Arrays;
 
 @MyTag(likes = {"code","ball"})
