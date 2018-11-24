@@ -28,5 +28,7 @@ public class DateTest {
         Date d3=new Date(3000);
         System.out.println(d1);
         System.out.println(d2);//延迟3秒
+
+
     }
 }
