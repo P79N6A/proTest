@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <mvc:annotation-driven enable-matrix-variables="true" />
+
+    <!--start-该注解解决responseBody乱码问题-->
+    <mvc:annotation-driven>
+        <mvc:message-converters register-defaults="true">
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <constructor-arg value="UTF-8" />
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+    <!--end-->
+
+    <mvc:resources location="classpath:/META-INF/resources/" mapping="swagger-ui.html"/>
+    <mvc:resources location="classpath:/META-INF/resources/webjars/" mapping="/webjars/**"/>
+    <!-- 启用注解 -->
+    <!--<context:annotation-config/>-->
+    <!--将静态资源交由默认的servlet处理-->
+    <!--<mvc:default-servlet-handler/>-->
+    <!--重要！配置swagger资源不被拦截-->
+    <!--<mvc:resources mapping="swagger-ui.html" location="classpath:/META-INF/resources/" />-->
+    <!--<mvc:resources mapping="/webjars/**" location="classpath:/META-INF/resources/webjars/" />-->
+    <!--重要！将你的SwaggerConfig配置类注入-->
+    <bean id="swaggerConfig" class="cn.whbing.pro.web.swager.SwaggerConfig"/>
+
+</beans>

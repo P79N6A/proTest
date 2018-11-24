@@ -1,8 +1,14 @@
 package httputil;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.Cleanup;
+import org.apache.commons.lang.StringUtils;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.io.*;
 import java.net.*;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -60,4 +66,54 @@ public class HttpRequestUtil {
         String res=HttpRequestUtil.sendGet(url,"");
         System.out.println(res);
     }
+
+//    public List<GatewayQueueEntity> queryGatewayQueueResource() {
+//        long startTime = System.currentTimeMillis();
+//        List<GatewayQueueEntity> list = new ArrayList();
+//        if (Strings.isNullOrEmpty(url)) {
+//            LOGGER.error("获取资源URL为空");
+//            return null;
+//        }
+//        //构建接口地址
+//        String requestUrl = new UrlBuilder(url).build();
+//        Map<String, String> params = Maps.newHashMap();
+//        // 本次并无参数，这里params实际为空，未删除仅做扩展
+//        // params.put("your_key", "your_value");
+//        String json = null;
+//        try {
+//            json = HttpRequestUtil.sendGet(requestUrl,params);
+//            if (Strings.isNullOrEmpty(json)) {
+//                LOGGER.error("查询gateway资源返回Json为空");
+//                throw new BizException("调用gateway资源接口返回为空");
+//            }
+//            ObjectMapper mapper = new ObjectMapper().disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+//            JSONObject jsonObj = new JSONObject(json);
+//            JSONArray dataList= jsonObj.getJSONArray("data");
+//            if (dataList == null || dataList.length() ==0) {
+//                LOGGER.error("查询gateway资源返回data为空, json={}", json);
+//                throw new BizException("调用gateway资源接口返回data为空");
+//            }
+//            String data;
+//            int count = 0;
+//            GatewayQueueEntity gatewayQueueEntity;
+//            for (int i = 0; i < dataList.length(); i++) {
+//                data = dataList.get(i).toString();
+//                // 封装成entity
+//                gatewayQueueEntity = mapper.readValue(data,GatewayQueueEntity.class);
+//                if(StringUtils.isEmpty(gatewayQueueEntity.getQueueName())){
+//                    LOGGER.error("警告,该条记录queueName为空{}，丢弃", data);
+//                    continue;
+//                }
+//                count++;
+//                list.add(gatewayQueueEntity);
+//            }
+//            System.out.println(dataList);
+//            LOGGER.info("获取gateway资源成功，耗时:{} ms", System.currentTimeMillis()-startTime);
+//            LOGGER.info("成功获取条数：{}",count);
+//            return list;
+//        } catch (Exception e) {
+//            LOGGER.error("获取当前gateway资源, json[{}]转换异常", json, e);
+//            throw new BizException("调用gateway资源接口异常");
+//        }
+//    }
 }
